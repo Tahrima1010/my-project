@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorone"
+    tools:context=".Activity3">
+
+
+    <TableRow
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_marginTop="100dp"
+            android:paddingLeft="50dp"
+            android:text="select one"
+            android:textSize="40sp"
+            android:textStyle="italic">
+
+        </TextView>
+
+    </TableRow>
+    <TableRow
+        android:layout_marginLeft="40dp"
+        android:id="@+id/row1">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="SKETCHES"
+            android:textColor="@color/colorblue"
+            android:textSize="20sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginLeft="40dp"
+        android:id="@+id/row2">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="CARTOONS"
+            android:textColor="@color/colorblue"
+            android:textSize="20sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+    </TableRow>
+
+</TableLayout>

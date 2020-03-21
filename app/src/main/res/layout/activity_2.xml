@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="81dp"
+        android:text="Log In Page"
+        android:textColor="@color/colorAccent"
+        android:textSize="50dp"
+        android:textStyle="italic">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="186dp"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="98dp"
+        android:layout_y="258dp"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="62dp"
+        android:layout_height="30dp"
+        android:layout_x="118dp"
+        android:layout_y="325dp"
+        android:text="click"
+        android:textSize="10dp"
+        android:textStyle="bold">
+
+    </Button>
+
+</AbsoluteLayout>
